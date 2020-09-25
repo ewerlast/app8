@@ -1,0 +1,94 @@
+.tabs {
+    border: 1px solid #666;
+    padding: 10px;
+    margin: 50px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.tab {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #666;
+    padding: 5px 10px;
+}
+
+
+/*    my cod  */
+
+/*import*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lobster&display=swap');
+
+body{
+box-sizing: border-box;
+background-image: url(https://img5.goodfon.ru/wallpaper/nbig/3/98/abstraktnyi-geometricheskii-linii-background-fon.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+nav{
+    width: 1024px;
+    min-height: 50px;
+    margin: 75px auto;
+    margin-bottom: 20px;
+}
+.ul_nav{
+    
+    width: 1024px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.li_nav{
+    width: 23%;
+    min-height: 50px;
+    padding-top: 10px;
+    list-style:none ;
+    border: 2px solid red;
+    text-align: center;
+    background-color: rgb(75, 83, 83);
+    font-size: 2em;
+    line-height: 1em;
+    color: #ffff;
+   cursor: pointer;
+    font-family: 'Lobster', cursive;
+    transition: all 0.3s;
+
+}
+.li_nav:hover{
+    background-color: rgb(31, 24, 24);
+    color: skyblue;
+    transform: scale(1.1) rotate(10deg);;
+    
+}
+
+
+.conteny_wrapper{
+    width: 1024px;
+    min-height: 500px;
+    margin: 20px auto;
+}
+.w1{
+    text-align: center;
+    font-size: 1.5em;
+     color: #ffff;;
+    background-color: rgb(7, 25, 31);
+    line-height: 1.5em;
+    font-family: 'Libre Baskerville', serif;
+}
+.w1 img{
+    width: 700px;
+    height: 400px;
+    padding-top: 5%;
+}
+.w1 p{
+    padding: 10px 40px;
+}
+
